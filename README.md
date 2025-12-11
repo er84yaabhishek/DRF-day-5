@@ -15,7 +15,7 @@ class StudentSerializers(serializers.ModelSerializer):
 
 Tip: Naming convention ke liye better hai StudentSerializer (singular).
 
-## 2️⃣ View (api/views.py)
+## 2️⃣ View (api/views.py) ```python
 from students.models import Student
 from .serializers import StudentSerializers
 from rest_framework.response import Response
